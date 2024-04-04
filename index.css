@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: green;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1.2px solid red;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    right: 60px;
+}
+.nav h1{
+    position: relative;
+    left: 50px;
+    font-family: 'Black Ops One', system-ui;
+    text-transform: uppercase;
+    
+}
+.nav2 p{
+    text-transform:uppercase ;
+    font-size: 1.2rem;
+}
+.nav2 p:hover{
+    font-size: 1.6rem;
+    color: red;
+}
+.main2 h1{
+color: darkcyan;
+padding-top: 30px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 3.6rem;
+}
+.main h3{
+    color: darkcyan;
+    font-size: 5.6rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    color: palegreen;
+    font-style: italic;
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', system-ui;
+}
+#secondsec{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#secondsec h1{
+    color: white;
+}
+#secondsec h1{
+    color: palegreen;
+    font-size: 5rem;
+    font-family: 'Black Ops One', system-ui;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 100;
+}
+.secondfstdiv{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+.main2{
+    padding-top: 20px;
+}
+.secondfstdiv img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+}
+.secondfstdiv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondfstdiv img:hover{
+   height: 160px;
+   width: 160px;
+}
+#nameskill{
+    display: flex;
+}
+#html h4{
+    position: relative;
+    left: 80px;
+    color: red;
+}
+#css h4{
+    position: relative;
+    left: 200px;
+    color: red;
+}
+#frame h4{
+    position: relative;
+    left: 300px;
+    color: red;
+}
+#html h4{
+    position: relative;
+    left: 80px;
+    color: red;
+}
+#js h4{
+    position: relative;
+    left: 80px;
+    color: red;
+}
+#jq h4{
+    position: relative;
+    left: 80px;
+    color: red;
+}
+#gsap h4{
+    position: relative;
+    left: 80px;
+    color: red;
+}
+#thirdsec{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#thirdsec h1{
+    color: aqua;
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: 'Black Ops One', system-ui;
+}
+#fourthsec{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#fourthsec h1{
+    color: aqua;
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: 'Black Ops One', system-ui;
+}
+#fourthsec p{
+    color: palegreen;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: double;
+}
+
